@@ -10,4 +10,3 @@ urlpatterns = [
     path('',views.home, name = 'home')
 ]
 
-urlpatterns += router.urls
