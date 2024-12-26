@@ -24,4 +24,5 @@ admin.site.index_title = "Bienvenido a la practica"
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('',include('core.urls')),
+    path('api/',include('api.urls'))
 ]
